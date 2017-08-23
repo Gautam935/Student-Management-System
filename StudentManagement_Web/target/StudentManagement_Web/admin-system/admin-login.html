@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta charset="utf-8">
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+		<!--//webfonts-->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="assets/css/sample.css" rel="stylesheet" />
+<script type="text/javascript">
+	$
+			.getScript(
+					"https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js",
+					function() {
+						particlesJS('particles-js', {
+							"particles" : {
+								"number" : {
+									"value" : 80,
+									"density" : {
+										"enable" : true,
+										"value_area" : 800
+									}
+								},
+								"color" : {
+									"value" : "#ffffff"
+								},
+								"shape" : {
+									"type" : "circle",
+									"stroke" : {
+										"width" : 0,
+										"color" : "#000000"
+									},
+									"polygon" : {
+										"nb_sides" : 5
+									},
+									"image" : {
+										"width" : 100,
+										"height" : 100
+									}
+								},
+								"opacity" : {
+									"value" : 0.5,
+									"random" : false,
+									"anim" : {
+										"enable" : false,
+										"speed" : 1,
+										"opacity_min" : 0.1,
+										"sync" : false
+									}
+								},
+								"size" : {
+									"value" : 5,
+									"random" : true,
+									"anim" : {
+										"enable" : false,
+										"speed" : 40,
+										"size_min" : 0.1,
+										"sync" : false
+									}
+								},
+								"line_linked" : {
+									"enable" : true,
+									"distance" : 150,
+									"color" : "#ffffff",
+									"opacity" : 0.4,
+									"width" : 1
+								},
+								"move" : {
+									"enable" : true,
+									"speed" : 6,
+									"direction" : "none",
+									"random" : false,
+									"straight" : false,
+									"out_mode" : "out",
+									"attract" : {
+										"enable" : false,
+										"rotateX" : 600,
+										"rotateY" : 1200
+									}
+								}
+							},
+							"interactivity" : {
+								"detect_on" : "canvas",
+								"events" : {
+									"onhover" : {
+										"enable" : true,
+										"mode" : "repulse"
+									},
+									"onclick" : {
+										"enable" : true,
+										"mode" : "push"
+									},
+									"resize" : true
+								},
+								"modes" : {
+									"grab" : {
+										"distance" : 400,
+										"line_linked" : {
+											"opacity" : 1
+										}
+									},
+									"bubble" : {
+										"distance" : 400,
+										"size" : 40,
+										"duration" : 2,
+										"opacity" : 8,
+										"speed" : 3
+									},
+									"repulse" : {
+										"distance" : 200
+									},
+									"push" : {
+										"particles_nb" : 4
+									},
+									"remove" : {
+										"particles_nb" : 2
+									}
+								}
+							},
+							"retina_detect" : true,
+							"config_demo" : {
+								"hide_card" : false,
+								"background_color" : "#b61924",
+								"background_image" : "",
+								"background_position" : "50% 50%",
+								"background_repeat" : "no-repeat",
+								"background_size" : "cover"
+							}
+						});
+
+					});
+</script>
+<style rel="stylesheet">
+#content {
+	
+}
+
+
+body {
+	background-color: #b61924;
+}
+</style>
+<title>Admin Login Page</title>
+</head>
+<body>
+	<div class="container">
+		<div id="login-box">
+			<div class="logo">
+				<img src="assets/img/login.png" class="img img-responsive img-circle center-block" alt="..." height="150" width="150"/>
+				<h1 class="logo-caption">
+					<span class="tweak"><b>L</b></span>ogin
+				</h1>
+			</div>
+			<!-- /.logo -->
+			<form class="form-horizontal" action="adminLogin" method="post">
+			<div class="controls">
+			<div class="form-group ">
+			    <label class="control-label col-sm-4" for="email">UserName :</label>
+				<div class="col-xs-6"><input class="form-control col-sm-2" id="username" name="username" placeholder="UserName" required/></div>
+			</div>
+			<div class="form-group ">	
+				<label class="control-label col-sm-4" for="pwd">Password:</label>
+				<div class="col-xs-6"><input type="password" class="form-control col-sm-2" id="pwd" placeholder="password" name="pwd" required></div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-offset-4 col-xs-2"><button type="submit" class="btn btn-default">Submit</button></div>
+			</div>
+			</div>
+			</form>
+			<!-- /.controls -->
+		</div>
+		<!-- /#login-box -->
+	</div>
+	<!-- /.container -->
+	<div id="particles-js"></div>
+</body>
+</html>
